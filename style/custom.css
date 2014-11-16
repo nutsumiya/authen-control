@@ -1,0 +1,11 @@
+body{
+	padding: 0;
+	height: 100%;
+	background-color: #F3E2A9;
+}
+.data-box{
+	background-color: #FAFAFA;
+	padding: 40px 30px;
+	border-radius: 5px;
+	margin: 80px auto 50px;
+}
