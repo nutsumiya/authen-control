@@ -21,6 +21,9 @@ RewriteRule ^show/$ show
 RewriteRule ^edit$ edit.php
 RewriteRule ^edit/$ edit
 
+RewriteRule ^scan$ scan.php
+RewriteRule ^scan/$ scan
+
 #RewriteRule ^user/([0-9]+)/$ edituser.php?user=$1
 #RewriteRule ^user/([0-9]+)$ user/$1/
 

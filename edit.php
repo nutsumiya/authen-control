@@ -7,7 +7,7 @@ include(resolveHeader('includes/navbar.php'));
 	<div class="data-box">
 
 <div class='page-header'>
-	<h1>สร้างผู้มาเยือน</h1>
+	<h1>สร้างผู้ใช้</h1>
 </div>		
 
 <form class="form-horizontal" role="form">
