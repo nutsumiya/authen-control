@@ -7,7 +7,7 @@ class Config
 			'host'=>'127.0.0.1',
 			'username'=>'root',
 			'password'=>'',
-			'db'=>'hazarddb',
+			'db'=>'acdb',
 			'encode' => 'UTF8'
 		),
 		'path' =>array(

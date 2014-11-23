@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse pull-right">
       <ul class="nav navbar-nav">
         <li><a >แก้ไขข้อมูลส่วนตัว</a></li>
-        <li><a >ออกจากระบบ</a></li>
+        <li><a href="<?php echo resolveURIHeader("logout");?>">ออกจากระบบ</a></li>
       </ul>
     </div>
 </nav>
