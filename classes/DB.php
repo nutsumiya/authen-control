@@ -70,6 +70,36 @@ class DB
 		}
 		return $ret;
 	}
+
+	public function delete( $table , $conditions = '' , $limit = 1)
+	{
+		return $this->query( "DELETE FROM `$table` " . DB::getWhenNotStringEmpty($conditions,'where ')
+		. $conditions.' '.DB::getWhenNotStringEmpty($limit,'limit ').$limit );
+	}
+
+	public function insert( $table , $field , $value )
+	{
+		$fill_field = DB::bindArray2Field($field);
+		$fill_value = DB::bindArray2SQLFormat($value,"'");
+		
+		$sql = "INSERT INTO `".Config::get('mysql/db')."`.`$table` ($fill_field) VALUES ($fill_value);";
+		return $this->query($sql);
+	}
+
+	public function update( $table , $data , $conditions = '' , $limit = 1)
+	{
+		$fill_set = '';
+		$first = true;
+		foreach( $data as $k => $v )
+		{
+			if( $first == false )
+				$fill_set .= ',';
+			$first = false;
+			$fill_set .= "`$k`='".mysql_real_escape_string($v)."'";
+		}
+		return $this->query( "UPDATE `".Config::get('mysql/db')."`.`$table` SET $fill_set " . DB::getWhenNotStringEmpty($conditions,'where ')
+		. $conditions.' '.DB::getWhenNotStringEmpty($limit,'limit ').$limit );
+	}
 }
 
 ?>

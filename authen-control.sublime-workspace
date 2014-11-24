@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"is_ex",
+				"is_expire"
+			],
+			[
 				"fa",
 				"faculty"
 			],
@@ -510,44 +514,40 @@
 			[
 				"endt",
 				"endturn"
-			],
-			[
-				"data",
-				"dataClone"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "style/custom.css",
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "signin.php",
 			"settings":
 			{
-				"buffer_size": 913,
+				"buffer_size": 1240,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scan.php",
+			"file": "delete.php",
 			"settings":
 			{
-				"buffer_size": 576,
+				"buffer_size": 398,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "edit.php",
+			"file": "classes/Authorised.php",
 			"settings":
 			{
-				"buffer_size": 1767,
+				"buffer_size": 1531,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "classes/Guest.php",
+			"settings":
+			{
+				"buffer_size": 1423,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,15 +555,7 @@
 			"file": ".htaccess",
 			"settings":
 			{
-				"buffer_size": 870,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "core/init.php",
-			"settings":
-			{
-				"buffer_size": 162,
+				"buffer_size": 1306,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +563,31 @@
 			"file": "show.php",
 			"settings":
 			{
-				"buffer_size": 2464,
+				"buffer_size": 2238,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "edit.php",
+			"settings":
+			{
+				"buffer_size": 5304,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "classes/DB.php",
+			"settings":
+			{
+				"buffer_size": 2690,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "classes/Input.php",
+			"settings":
+			{
+				"buffer_size": 461,
 				"line_ending": "Windows"
 			}
 		}
@@ -604,13 +620,42 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/authen-control/.htaccess",
-		"/C/xampp/htdocs/authen-control/style/signin.css",
+		"/C/xampp/htdocs/hazard/classes/DB.php",
 		"/C/xampp/htdocs/authen-control/classes/Config.php",
-		"/C/xampp/htdocs/authen-control/edit.php",
-		"/C/xampp/htdocs/authen-control/show.php",
-		"/C/xampp/htdocs/authen-control/includes/navbar.php",
+		"/C/xampp/htdocs/hazard/.htaccess",
+		"/C/xampp/htdocs/authen-control/classes/DB.php",
 		"/C/xampp/htdocs/authen-control/includes/header.php",
+		"/C/xampp/htdocs/authen-control/classes/Authorised.php",
+		"/C/xampp/htdocs/authen-control/classes/Guest.php",
+		"/C/xampp/htdocs/authen-control/show.php",
+		"/C/xampp/htdocs/authen-control/.htaccess",
+		"/C/xampp/htdocs/authen-control/classes/Redirect.php",
+		"/C/xampp/htdocs/authen-control/logout.php",
+		"/C/xampp/htdocs/authen-control/scan.php",
+		"/C/xampp/htdocs/authen-control/classes/Input.php",
+		"/C/xampp/htdocs/hazard/requests.php",
+		"/C/xampp/htdocs/hazard/profile.php",
+		"/C/xampp/htdocs/hazard/home.php",
+		"/C/xampp/htdocs/hazard/classes/Certificate.php",
+		"/C/xampp/htdocs/hazard/functions/utils.php",
+		"/C/xampp/htdocs/hazard/classes/Commend.php",
+		"/C/xampp/htdocs/authen-control/core/init.php",
+		"/C/xampp/htdocs/authen-control/classes/User.php",
+		"/C/xampp/htdocs/hazard/classes/User.php",
+		"/C/xampp/htdocs/hazard/classes/Request.php",
+		"/C/xampp/htdocs/hazard/classes/Input.php",
+		"/C/xampp/htdocs/authen-control/classes/Session.php",
+		"/C/xampp/htdocs/authen-control/includes/navbar.php",
+		"/C/xampp/htdocs/hazard/includes/header.php",
+		"/C/xampp/htdocs/hazard/logout.php",
+		"/C/xampp/htdocs/hazard/classes/Redirect.php",
+		"/C/xampp/htdocs/hazard/classes/Session.php",
+		"/C/xampp/htdocs/authen-control/edit.php",
+		"/C/xampp/htdocs/authen-control/classes/Officer.php",
+		"/C/xampp/htdocs/authen-control/db/migration_number.SAMPLE",
+		"/C/xampp/htdocs/authen-control/db/migration_number",
+		"/C/xampp/htdocs/authen-control/style/custom.css",
+		"/C/xampp/htdocs/authen-control/style/signin.css",
 		"/C/xampp/htdocs/authen-control/edit-guest.php",
 		"/C/xampp/htdocs/authen-control/signin.php",
 		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/user-edit.php",
@@ -618,16 +663,13 @@
 		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/register.css",
 		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/user.php",
 		"/C/xampp/htdocs/authen-control/functions/utils.php",
-		"/C/xampp/htdocs/authen-control/core/init.php",
 		"/C/Users/Nut Ruanpech/Desktop/bootstrap-3.3.1/docs/examples/jumbotron-narrow/jumbotron-narrow.css",
 		"/C/xampp/htdocs/authen-control/index.php",
 		"/C/xampp/htdocs/authen-control/includes/footer.php",
-		"/C/xampp/htdocs/hazard/home.php",
 		"/C/xampp/htdocs/authen-control/edit",
 		"/C/Users/Nut Ruanpech/Desktop/bootstrap-3.3.1/less/carousel.less",
 		"/C/xampp/htdocs/hazard/login.php",
 		"/C/xampp/htdocs/hazard/process_request.php",
-		"/C/xampp/htdocs/hazard/profile.php",
 		"/C/xampp/htdocs/hazard/test.php",
 		"/C/xampp/htdocs/authen-control/core/signin.php",
 		"/C/xampp/htdocs/hazard/core/define.php",
@@ -705,37 +747,11 @@
 		"/E/Box/Node/alpha/alpha-server/test/db/player.js",
 		"/E/Box/Node/alpha/alpha-server/test/friendmanager.js",
 		"/E/Box/Node/alpha/alpha-server/test/status.js",
-		"/E/Box/Node/alpha/alpha-server/test/stub/quest_db.js",
-		"/E/Box/Node/alpha/alpha-server/test/stub/deck_db.js",
-		"/E/Box/Node/alpha/alpha-server/test/stub/pack_db.js",
-		"/E/Box/Node/alpha/alpha-server/test/stub/player_db.js",
-		"/E/Box/Node/alpha/alpha-server/test/protocol.js",
-		"/E/Box/Node/alpha/alpha-server/test/shop.js",
-		"/E/Box/Node/alpha/alpha-server/test/field.js",
-		"/E/Box/Node/alpha/alpha-server/test/inventory.js",
-		"/E/Box/Node/alpha/alpha-server/test/nearbyfinder.js",
-		"/E/Box/Node/alpha/alpha-server/test/deckbuilder.js",
-		"/E/Box/Node/alpha/alpha-server/test/condition.js",
-		"/E/Box/Node/alpha/alpha-server/test/inventorymanager.js",
-		"/E/Box/Node/alpha/alpha-server/test/game.js",
-		"/E/Box/Node/alpha/alpha-server/test/effect.js",
-		"/E/Box/Node/alpha/alpha-server/test/stub/shopitem_db.js",
-		"/E/Box/Node/alpha/alpha-server/test/auth.js",
-		"/E/Box/Node/alpha/alpha-server/test/db/pack.js",
-		"/E/Box/Node/alpha/alpha-server/test/stub/questinfo_db.js",
-		"/E/Box/Node/alpha/alpha-server/dbmodel/questtype_db.js",
-		"/E/Box/Node/alpha/alpha-server/entities/quest.js",
-		"/E/Box/Node/alpha/alpha-server/entities/deck.js",
-		"/E/Box/Node/alpha/alpha-server/services/deckbuilder.js",
-		"/E/Box/Node/alpha/alpha-server/patch/content.js",
-		"/E/Box/Node/alpha/alpha-server/node_modules/logger/index.js",
-		"/E/Box/Node/alpha/alpha-server/dbmodel/card_db.js",
-		"/E/Box/Node/alpha/alpha-server/dbmodel/pack_db.js",
-		"/E/Box/Node/alpha/alpha-server/db/log"
+		"/E/Box/Node/alpha/alpha-server/test/stub/quest_db.js"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -756,6 +772,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"bindArray2Field",
+			"getWhenNotStringEmpty",
+			"script",
+			"cardid",
+			"			\n",
+			"date_create",
 			"เข้าสู่ระบบ",
 			"#cart",
 			"cart",
@@ -877,13 +899,7 @@
 			"addEffect",
 			"emit",
 			"endturn",
-			"end",
-			"console",
-			"whofirst",
-			"player",
-			"ROBOT X",
-			"console",
-			"heroPowered"
+			"end"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -928,49 +944,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "style/custom.css",
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								102,
-								102
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "signin.php",
 					"settings":
 					{
-						"buffer_size": 913,
+						"buffer_size": 1240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								913,
-								856
+								556,
+								565
 							]
 						],
 						"settings":
@@ -986,19 +976,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "scan.php",
+					"buffer": 1,
+					"file": "delete.php",
 					"settings":
 					{
-						"buffer_size": 576,
+						"buffer_size": 398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								335,
-								335
+								366,
+								366
 							]
 						],
 						"settings":
@@ -1007,32 +997,58 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "edit.php",
+					"buffer": 2,
+					"file": "classes/Authorised.php",
 					"settings":
 					{
-						"buffer_size": 1767,
+						"buffer_size": 1531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								1420,
+								1427
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 924.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "classes/Guest.php",
+					"settings":
+					{
+						"buffer_size": 1423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1045,15 +1061,15 @@
 					"file": ".htaccess",
 					"settings":
 					{
-						"buffer_size": 870,
+						"buffer_size": 1306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								670,
-								670
+								765,
+								765
 							]
 						],
 						"settings":
@@ -1061,30 +1077,31 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "core/init.php",
+					"file": "show.php",
 					"settings":
 					{
-						"buffer_size": 162,
+						"buffer_size": 2238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								158,
-								108
+								1179,
+								1179
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1094,18 +1111,46 @@
 				},
 				{
 					"buffer": 6,
-					"file": "show.php",
+					"file": "edit.php",
 					"settings":
 					{
-						"buffer_size": 2464,
+						"buffer_size": 5304,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1465,
-								1465
+								771,
+								771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "classes/DB.php",
+					"settings":
+					{
+						"buffer_size": 2690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2215,
+								2221
 							]
 						],
 						"settings":
@@ -1114,7 +1159,34 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 880.0,
+						"translation.y": 1518.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "classes/Input.php",
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

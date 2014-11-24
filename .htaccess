@@ -18,14 +18,23 @@ RewriteRule ^$ signin.php
 RewriteRule ^show$ show.php
 RewriteRule ^show/$ show
 
-RewriteRule ^edit$ edit.php
-RewriteRule ^edit/$ edit
+RewriteRule ^new/([^\?].*)/$ edit.php?command=new&type=$1
+RewriteRule ^new/([^\?].*)$ new/$1/
+
+RewriteRule ^edit/([^\?].*)/([0-9]+)/$ edit.php?command=edit&type=$1&id=$2
+RewriteRule ^edit/([^\?].*)/([0-9]+)$ edit/$1/$2/
 
 RewriteRule ^scan$ scan.php
 RewriteRule ^scan/$ scan
 
+RewriteRule ^scan/([0-9]+)/$ scan.php?cardid=$1
+RewriteRule ^scan/([0-9]+)$ scan/$1/
+
 RewriteRule ^logout$ logout.php
 RewriteRule ^logout/$ logout
+
+RewriteRule ^delete/([^\?].*)/([0-9]+)/$ delete.php?type=$1&id=$2
+RewriteRule ^delete/([^\?].*)/([0-9]+)$ delete/$1/$2/
 
 #RewriteRule ^user/([0-9]+)/$ edituser.php?user=$1
 #RewriteRule ^user/([0-9]+)$ user/$1/

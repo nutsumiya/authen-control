@@ -28,7 +28,7 @@ class User
 			throw new Exception("รหัสผ่านไม่ถูกต้อง");
 		}
 		$user = new User( $user_db ); 
-		Session::put( "user" , $user );
+		Session::put( "user" , serialize($user) );
 		return $user;
 	}
 }
