@@ -520,18 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "signin.php",
+			"file": "/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/scan.php",
 			"settings":
 			{
-				"buffer_size": 1240,
+				"buffer_size": 1725,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "delete.php",
+			"file": "/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/Authorised.php",
 			"settings":
 			{
-				"buffer_size": 398,
+				"buffer_size": 1569,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,55 +539,7 @@
 			"file": "classes/Authorised.php",
 			"settings":
 			{
-				"buffer_size": 1531,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "classes/Guest.php",
-			"settings":
-			{
-				"buffer_size": 1423,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".htaccess",
-			"settings":
-			{
-				"buffer_size": 1306,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "show.php",
-			"settings":
-			{
-				"buffer_size": 2238,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "edit.php",
-			"settings":
-			{
-				"buffer_size": 5304,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "classes/DB.php",
-			"settings":
-			{
-				"buffer_size": 2690,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "classes/Input.php",
-			"settings":
-			{
-				"buffer_size": 461,
+				"buffer_size": 1569,
 				"line_ending": "Windows"
 			}
 		}
@@ -620,44 +572,48 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/authen-control/core/init.php",
+		"/C/xampp/htdocs/authen-control/show.php",
+		"/C/xampp/htdocs/authen-control/includes/navbar.php",
+		"/C/xampp/htdocs/authen-control/edit.php",
+		"/C/xampp/htdocs/authen-control/signin.php",
+		"/C/xampp/htdocs/authen-control/delete.php",
+		"/C/xampp/htdocs/authen-control/classes/Authorised.php",
+		"/C/xampp/htdocs/authen-control/classes/DB.php",
+		"/C/xampp/htdocs/authen-control/classes/Input.php",
+		"/C/xampp/htdocs/hazard/includes/header.php",
+		"/C/xampp/htdocs/authen-control/classes/Session.php",
+		"/C/xampp/htdocs/authen-control/classes/User.php",
+		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/show.php",
+		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/Config.php",
+		"/C/xampp/htdocs/authen-control/classes/Card.php",
+		"/C/xampp/htdocs/authen-control/classes/Guest.php",
+		"/C/xampp/htdocs/authen-control/.htaccess",
 		"/C/xampp/htdocs/hazard/classes/DB.php",
 		"/C/xampp/htdocs/authen-control/classes/Config.php",
 		"/C/xampp/htdocs/hazard/.htaccess",
-		"/C/xampp/htdocs/authen-control/classes/DB.php",
 		"/C/xampp/htdocs/authen-control/includes/header.php",
-		"/C/xampp/htdocs/authen-control/classes/Authorised.php",
-		"/C/xampp/htdocs/authen-control/classes/Guest.php",
-		"/C/xampp/htdocs/authen-control/show.php",
-		"/C/xampp/htdocs/authen-control/.htaccess",
 		"/C/xampp/htdocs/authen-control/classes/Redirect.php",
 		"/C/xampp/htdocs/authen-control/logout.php",
 		"/C/xampp/htdocs/authen-control/scan.php",
-		"/C/xampp/htdocs/authen-control/classes/Input.php",
 		"/C/xampp/htdocs/hazard/requests.php",
 		"/C/xampp/htdocs/hazard/profile.php",
 		"/C/xampp/htdocs/hazard/home.php",
 		"/C/xampp/htdocs/hazard/classes/Certificate.php",
 		"/C/xampp/htdocs/hazard/functions/utils.php",
 		"/C/xampp/htdocs/hazard/classes/Commend.php",
-		"/C/xampp/htdocs/authen-control/core/init.php",
-		"/C/xampp/htdocs/authen-control/classes/User.php",
 		"/C/xampp/htdocs/hazard/classes/User.php",
 		"/C/xampp/htdocs/hazard/classes/Request.php",
 		"/C/xampp/htdocs/hazard/classes/Input.php",
-		"/C/xampp/htdocs/authen-control/classes/Session.php",
-		"/C/xampp/htdocs/authen-control/includes/navbar.php",
-		"/C/xampp/htdocs/hazard/includes/header.php",
 		"/C/xampp/htdocs/hazard/logout.php",
 		"/C/xampp/htdocs/hazard/classes/Redirect.php",
 		"/C/xampp/htdocs/hazard/classes/Session.php",
-		"/C/xampp/htdocs/authen-control/edit.php",
 		"/C/xampp/htdocs/authen-control/classes/Officer.php",
 		"/C/xampp/htdocs/authen-control/db/migration_number.SAMPLE",
 		"/C/xampp/htdocs/authen-control/db/migration_number",
 		"/C/xampp/htdocs/authen-control/style/custom.css",
 		"/C/xampp/htdocs/authen-control/style/signin.css",
 		"/C/xampp/htdocs/authen-control/edit-guest.php",
-		"/C/xampp/htdocs/authen-control/signin.php",
 		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/user-edit.php",
 		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/register.php",
 		"/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/register.css",
@@ -743,11 +699,7 @@
 		"/E/Box/Node/alpha/alpha-server/test/db/quest.js",
 		"/E/Box/Node/alpha/alpha-server/test/db/questinfo.js",
 		"/E/Box/Node/alpha/alpha-server/test/questmanager.js",
-		"/E/Box/Node/alpha/alpha-server/test/tool.js",
-		"/E/Box/Node/alpha/alpha-server/test/db/player.js",
-		"/E/Box/Node/alpha/alpha-server/test/friendmanager.js",
-		"/E/Box/Node/alpha/alpha-server/test/status.js",
-		"/E/Box/Node/alpha/alpha-server/test/stub/quest_db.js"
+		"/E/Box/Node/alpha/alpha-server/test/tool.js"
 	],
 	"find":
 	{
@@ -944,51 +896,23 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "signin.php",
+					"file": "/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/scan.php",
 					"settings":
 					{
-						"buffer_size": 1240,
+						"buffer_size": 1725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								556,
-								565
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 330.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "delete.php",
-					"settings":
-					{
-						"buffer_size": 398,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								366,
-								366
+								623,
+								623
 							]
 						],
 						"settings":
@@ -1003,19 +927,46 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "classes/Authorised.php",
+					"buffer": 1,
+					"file": "/C/Users/Nut Ruanpech/AppData/Local/Temp/fz3temp-1/Authorised.php",
 					"settings":
 					{
-						"buffer_size": 1531,
+						"buffer_size": 1569,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1420,
-								1427
+								1136,
+								1076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 752.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "classes/Authorised.php",
+					"settings":
+					{
+						"buffer_size": 1569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
 							]
 						],
 						"settings":
@@ -1025,168 +976,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 924.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "classes/Guest.php",
-					"settings":
-					{
-						"buffer_size": 1423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								137,
-								140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": ".htaccess",
-					"settings":
-					{
-						"buffer_size": 1306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								765,
-								765
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 264.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "show.php",
-					"settings":
-					{
-						"buffer_size": 2238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1179,
-								1179
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "edit.php",
-					"settings":
-					{
-						"buffer_size": 5304,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								771,
-								771
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "classes/DB.php",
-					"settings":
-					{
-						"buffer_size": 2690,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2215,
-								2221
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1518.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "classes/Input.php",
-					"settings":
-					{
-						"buffer_size": 461,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								361,
-								365
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

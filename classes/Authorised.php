@@ -48,7 +48,7 @@ class Authorised
 	public function is_expire()
 	{
 		$enterTime = new DateTime($this->authorised_db['enterTime'],new DateTimeZone('Asia/Bangkok'));
-		$now = new DateTime();
+		$now = date_create("now", new DateTimeZone('Asia/Bangkok'));
 		$exitTime = new DateTime($this->authorised_db['exitTime'],new DateTimeZone('Asia/Bangkok'));
 		return  ($now->diff( $enterTime )->invert==0) || ($exitTime->diff( $now )->invert==0);
 	}
